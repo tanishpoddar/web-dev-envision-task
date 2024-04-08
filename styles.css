@@ -1,0 +1,91 @@
+    body {
+      background-image: url("image.png");
+      background-size: cover;
+      background-position: center;
+      font-family: 'Segoe UI';
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .signup-box, .login-box {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 30px;
+      border-radius: 10px;
+      width: 600px;
+      text-align: left;
+    }
+    .signup-title {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .description, .forgot-password, .remember-me {
+      font-size: 0.8em;
+      color: gray;
+      margin-bottom: 15px;
+    }
+    .input-container {
+      margin-bottom: 15px;
+      position: relative;
+    }
+    .input-label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .input-field {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: calc(100%);
+      box-sizing: border-box;
+    }
+    .password-fields {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .password-fields .input-container {
+      width: 47%; 
+    }
+    .password-fields .input-field {
+      width: 100%;
+    }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .checkbox {
+      margin-right: 10px;
+    }
+    .remember-me, .forgot-password {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+    .signup-btn, .login-box {
+      background-color: blue;
+      color: white;
+      padding: 10px 185px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 16px; 
+      width: 100%;
+      box-sizing: border-box; 
+    }
+    .login-box {
+      margin-top: 20px;
+      background: transparent;
+      color: blue;
+      padding: 10px 185px; 
+      border: 2px solid blue; 
+      border-radius: 5px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 16px; 
+      width: 100%; 
+      box-sizing: border-box; 
+    }
